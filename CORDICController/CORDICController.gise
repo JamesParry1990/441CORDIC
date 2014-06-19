@@ -136,15 +136,19 @@
     <transform xil_pn:end_ts="1402962953" xil_pn:in_ck="3422219174523596478" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1402962953">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Controller.vhd"/>
       <outfile xil_pn:name="ControllerTB.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1402962960" xil_pn:in_ck="3422219174523596478" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1702060358040812414" xil_pn:start_ts="1402962953">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControllerTB_beh.prj"/>
       <outfile xil_pn:name="ControllerTB_isim_beh.exe"/>

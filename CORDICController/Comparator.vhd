@@ -43,6 +43,7 @@ architecture Behavioral of Comparator is
 
 begin
 	-- 1 for positive, 0 for negative.
+	--this line is for a GitHub Test.
 
 end Behavioral;
 
