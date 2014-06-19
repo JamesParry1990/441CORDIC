@@ -1,0 +1,9 @@
+vhdtdtfi -lib work bin_mem.vhd -prj CORDICController -o BinMem.spl -module BinMem -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work bin_mem.vhd -prj CORDICController -o BinMem.spl -module BinMem -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BinMem.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/BinMem.sym 
+vhdtdtfi -lib work bin_mem.vhd -prj CORDICController -o BinMem.spl -module BinMem -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BinMem.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/BinMem.sym 
+vhdtdtfi -lib work bin_mem.vhd -prj CORDICController -o BinMem.spl -module BinMem -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BinMem.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/BinMem.sym 
+vhdtdtfi -lib work bin_mem.vhd -prj CORDICController -o BinMem.spl -module BinMem -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BinMem.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/BinMem.sym 

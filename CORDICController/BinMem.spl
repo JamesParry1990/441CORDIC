@@ -1,0 +1,6 @@
+[Inputs]
+=i[3:0]=
+=mode[1:0]=
+[Outputs]
+=data[31:0]=
+[BiDir]

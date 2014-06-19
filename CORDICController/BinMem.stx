@@ -1,0 +1,54 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" in Library work.
+Entity <binmem> compiled.
+ERROR:HDLParsers:164 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 61. parse error, unexpected CLOSEPAR
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 64. Size mismatch.  String literal "00000000000100010000000000010000000000010000000000000000000100010001000100010001000000010001000000010000000100000001000000000001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 65. Size mismatch.  String literal "00000000000000010001000100000001000100000001000000010001000000000000000100010000000000010001000100000000000000000000000100000001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 66. Size mismatch.  String literal "00000000000000000001000100010001000100000001000000010001000000010001000000010001000100000001000000010001000100010001000100000001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 67. Size mismatch.  String literal "00000000000000000000000100010001000100010001000100000001000000010000000100010000000100010001000000010000000100000000000100010001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 68. Size mismatch.  String literal "00000000000000000000000000010001000100010001000100010001000100000001000000010000000100000001000100000001000100010000000100010001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 69. Size mismatch.  String literal "00000000000000000000000000000001000100010001000100010001000100010001000100000001000000010000000100000001000000010001000100000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 70. Size mismatch.  String literal "00000000000000000000000000000000000100010001000100010001000100010001000100010001000100000001000000010000000100000001000000010001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 71. Size mismatch.  String literal "00000000000000000000000000000000000000010001000100010001000100010001000100010001000100010001000100000001000000010000000100000001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 72. Size mismatch.  String literal "00000000000000000000000000000000000000000001000100010001000100010001000100010001000100010001000100010001000100000001000000010001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 73. Size mismatch.  String literal "00000000000000000000000000000000000000000000000100010001000100010001000100010001000100010001000100010001000100010001000100000001" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 74. Size mismatch.  String literal "00000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 75. Size mismatch.  String literal "00000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 76. Size mismatch.  String literal "00000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 77. Size mismatch.  String literal "00000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 78. Size mismatch.  String literal "00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 79. Size mismatch.  String literal "00000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000" is of size 128 but is expected to be of size 32.
+ERROR:HDLParsers:3320 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 85. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 85. Type of data is incompatible with type of hyperbolic.
+ERROR:HDLParsers:164 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd" Line 86. parse error, unexpected SEMICOLON
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+
+Total memory usage is 166100 kilobytes
+
+Number of errors   :   20 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
