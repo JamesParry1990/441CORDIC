@@ -15,13 +15,13 @@ EN work/BinMem 0 \
 AR work/BinMem/Behavioral 0 \
       FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd \
       EN work/BinMem 0
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd 2014/06/21.12:29:08 O.87xd
-EN work/Comparator 1403378974 \
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd 2014/06/21.14:45:19 O.87xd
+EN work/Comparator 1403387123 \
       FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd \
       PB ieee/std_logic_1164 1325952872
-AR work/Comparator/Behavioral 1403378975 \
+AR work/Comparator/Behavioral 1403387124 \
       FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd \
-      EN work/Comparator 1403378974
+      EN work/Comparator 1403387123
 FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd 2014/06/21.12:52:35 O.87xd
 EN work/Controller 1403380359 \
       FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd \

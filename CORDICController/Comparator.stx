@@ -17,8 +17,6 @@ Total CPU time to Xst completion: 0.12 secs
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/Comparator is now defined in a different file.  It was defined in "C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd", and is now defined in "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd".
-WARNING:HDLParsers:3607 - Unit work/Comparator/Behavioral is now defined in a different file.  It was defined in "C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd", and is now defined in "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd".
 Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd" in Library work.
 Entity <comparator> compiled.
 Entity <comparator> (Architecture <behavioral>) compiled.
@@ -29,9 +27,9 @@ Total CPU time to Xst completion: 0.17 secs
  
 --> 
 
-Total memory usage is 166036 kilobytes
+Total memory usage is 166228 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -8,8 +8,6 @@
     <netlist>
         <signal name="XLXN_1" />
         <signal name="XLXN_2(31:0)" />
-        <signal name="XLXN_3(31:0)" />
-        <signal name="XLXN_4(31:0)" />
         <signal name="XLXN_9(31:0)" />
         <signal name="XLXN_12(31:0)" />
         <signal name="XLXN_15" />
@@ -66,9 +64,7 @@
             <rect width="256" x="64" y="-128" height="256" />
         </blockdef>
         <blockdef name="Comparator">
-            <timestamp>2014-6-21T19:29:40</timestamp>
-            <rect width="64" x="0" y="20" height="24" />
-            <line x2="0" y1="32" y2="32" x1="64" />
+            <timestamp>2014-6-21T21:45:28</timestamp>
             <line x2="0" y1="-352" y2="-352" x1="64" />
             <line x2="0" y1="-288" y2="-288" x1="64" />
             <rect width="64" x="0" y="-236" height="24" />
@@ -144,7 +140,6 @@
             <blockpin signalname="XLXN_57(31:0)" name="Zi(31:0)" />
             <blockpin signalname="XLXN_58(31:0)" name="Yi(31:0)" />
             <blockpin signalname="XLXN_1" name="Output" />
-            <blockpin signalname="XLXN_9(31:0)" name="Mem_In(31:0)" />
         </block>
         <block symbolname="Controller" name="XLXI_4">
             <blockpin signalname="XLXN_32" name="start" />
@@ -252,15 +247,6 @@
             <wire x2="1056" y1="1424" y2="1424" x1="800" />
             <wire x2="800" y1="1424" y2="1520" x1="800" />
         </branch>
-        <branch name="XLXN_9(31:0)">
-            <wire x2="1536" y1="1872" y2="1872" x1="1440" />
-            <wire x2="1536" y1="1856" y2="1872" x1="1536" />
-            <wire x2="1632" y1="1856" y2="1856" x1="1536" />
-            <wire x2="1632" y1="1856" y2="2144" x1="1632" />
-            <wire x2="1808" y1="2144" y2="2144" x1="1632" />
-            <wire x2="1632" y1="1488" y2="1856" x1="1632" />
-            <wire x2="1760" y1="1488" y2="1488" x1="1632" />
-        </branch>
         <instance x="1808" y="2112" name="XLXI_3" orien="R0">
         </instance>
         <instance x="1056" y="1968" name="XLXI_2" orien="R0">
@@ -291,8 +277,7 @@
             <wire x2="1008" y1="1680" y2="1680" x1="240" />
             <wire x2="1056" y1="1680" y2="1680" x1="1008" />
             <wire x2="1008" y1="1680" y2="2240" x1="1008" />
-            <wire x2="1776" y1="2240" y2="2240" x1="1008" />
-            <wire x2="2240" y1="2240" y2="2240" x1="1776" />
+            <wire x2="2240" y1="2240" y2="2240" x1="1008" />
             <wire x2="2240" y1="1488" y2="1488" x1="2192" />
             <wire x2="2240" y1="1488" y2="2240" x1="2240" />
         </branch>
@@ -309,6 +294,11 @@
             <wire x2="1808" y1="2016" y2="2016" x1="1520" />
             <wire x2="1520" y1="1360" y2="1488" x1="1520" />
             <wire x2="1760" y1="1360" y2="1360" x1="1520" />
+        </branch>
+        <branch name="XLXN_9(31:0)">
+            <wire x2="1632" y1="1872" y2="1872" x1="1440" />
+            <wire x2="1760" y1="1488" y2="1488" x1="1632" />
+            <wire x2="1632" y1="1488" y2="1872" x1="1632" />
         </branch>
     </sheet>
 </drawing>
