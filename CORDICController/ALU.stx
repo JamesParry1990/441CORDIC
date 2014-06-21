@@ -1,12 +1,12 @@
 Release 13.4 - xst O.87xd (nt)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
---> Parameter xsthdpdir set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst
+--> Parameter xsthdpdir set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -17,19 +17,19 @@ Total CPU time to Xst completion: 0.12 secs
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/jdparry/Documents/CORDICController/CORDICController/ALU.vhd" in Library work.
-Entity <ALU> compiled.
-ERROR:HDLParsers:164 - "C:/Users/jdparry/Documents/CORDICController/CORDICController/ALU.vhd" Line 73. parse error, unexpected IDENTIFIER, expecting COMPONENT
+Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd" in Library work.
+Entity <alu> compiled.
+Entity <alu> (Architecture <thetaprovided>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> 
 
-Total memory usage is 166036 kilobytes
+Total memory usage is 166676 kilobytes
 
-Number of errors   :    1 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

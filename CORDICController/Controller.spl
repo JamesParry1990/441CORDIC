@@ -5,9 +5,10 @@ rst
 clk
 =code[3:0]=
 [Outputs]
-t
+enable
+reg_wr
+reg_rd
 op
-load
 =m[1:0]=
 =i[3:0]=
 [BiDir]

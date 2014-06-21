@@ -1,12 +1,12 @@
 Release 13.4 - xst O.87xd (nt)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
---> Parameter xsthdpdir set to C:/Users/jdparry/Documents/CORDICController/CORDICController/xst
+--> Parameter xsthdpdir set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -17,9 +17,11 @@ Total CPU time to Xst completion: 0.12 secs
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd" in Library work.
-Entity <Comparator> compiled.
-Entity <Comparator> (Architecture <Behavioral>) compiled.
+WARNING:HDLParsers:3607 - Unit work/Comparator is now defined in a different file.  It was defined in "C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd", and is now defined in "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd".
+WARNING:HDLParsers:3607 - Unit work/Comparator/Behavioral is now defined in a different file.  It was defined in "C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd", and is now defined in "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd".
+Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd" in Library work.
+Entity <comparator> compiled.
+Entity <comparator> (Architecture <behavioral>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -27,9 +29,9 @@ Total CPU time to Xst completion: 0.17 secs
  
 --> 
 
-Total memory usage is 166100 kilobytes
+Total memory usage is 166036 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

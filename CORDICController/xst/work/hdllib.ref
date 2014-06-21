@@ -1,8 +1,9 @@
-AR register_file behavioural C:/Users/jdparry/Documents/CORDICController/CORDICController/Register.vhd sub00/vhpl03 1403210965
-AR comparator behavioral C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd sub00/vhpl05 1403209765
-EN binmem NULL C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd sub00/vhpl07 1403210682
-AR controller behavioral "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" sub00/vhpl01 1402960692
-EN register_file NULL C:/Users/jdparry/Documents/CORDICController/CORDICController/Register.vhd sub00/vhpl02 1403210964
-EN controller NULL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" sub00/vhpl00 1402960691
-EN comparator NULL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd sub00/vhpl04 1403209764
-EN alu NULL C:/Users/jdparry/Documents/CORDICController/CORDICController/ALU.vhd sub00/vhpl06 1403209891
+AR register_file behavioural C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl03 1403378105
+AR comparator behavioral C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd sub00/vhpl05 1403378975
+EN binmem NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd sub00/vhpl07 1403378654
+AR controller behavioral C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl01 1403380360
+EN register_file NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl02 1403378104
+AR alu thetaprovided C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd sub00/vhpl08 1403379570
+EN controller NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl00 1403380359
+EN comparator NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd sub00/vhpl04 1403378974
+EN alu NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd sub00/vhpl06 1403379569

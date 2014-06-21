@@ -35,12 +35,14 @@ entity Controller is
 	Port ( 	code 	: 	in STD_LOGIC_VECTOR (3 downto 0);
 				start	: 	in STD_LOGIC;
 				done	: 	in STD_LOGIC;
-				
-				t		: out STD_LOGIC;
+				enable : out STD_LOGIC; --MUSTFIX this variable is not used in code yet.
+				reg_wr : out  	STD_LOGIC;
+				reg_rd : out  	STD_LOGIC;
+				--t		: out STD_LOGIC;
 				m		: out STD_LOGIC_VECTOR (1 downto 0);
 				i		: out STD_LOGIC_VECTOR (3 downto 0);
 				op		: out STD_LOGIC;
-				load	: out STD_LOGIC;
+				--load	: out STD_LOGIC;
 				
 				rst	: 	in STD_LOGIC;
 				clk 	: 	in STD_LOGIC
@@ -59,9 +61,10 @@ process(clk)
 		if(clk='1' and clk'event) then
 			if (rst = '1') then
 				i <= "ZZZZ";
-				t <= 'Z';
+				--t <= 'Z'; --MUSTFIX
 				op <= 'Z';
-				load <= 'Z';
+				--load <= 'Z';
+				reg_wr <= 'Z';
 				m <= "ZZ";
 				state <= "00";
 				counter <= "0000";
@@ -69,15 +72,17 @@ process(clk)
 			elsif (state = "00") then		--Idle State
 				
 				if (start = '1') then		--start signal received
-					load <= '1';				--load initial values to ALU
+					--load <= '1';				--load initial values to ALU
+					reg_wr <= '1';
 					state <= "01";
 				end if;
 			
 			elsif (state = "01") then		--load state
 				
 				if (done = '1')then				--values have been loaded
-					load <= '0';				--deassert load
-					t <= code(0);				--determine table to use
+					--load <= '0';				--deassert load
+					reg_wr <= '0';
+					--t <= code(0); --MUSTFIX				--determine table to use
 					m <= code(1 downto 0);	--determine mode
 					op <= code(2);				--select y or theta
 					i <= "0000";				--begin counting
@@ -94,9 +99,10 @@ process(clk)
 				elsif (done ='1' and counter = "1111") then			--last iteration
 					i <= "ZZZZ";											--set values to neutral
 					counter <="0000";
-					t <= 'Z';
+					--t <= 'Z'; --MUSTFIX
 					op <= 'Z';
-					load <= 'Z';
+					--load <= 'Z';
+					reg_wr <= 'Z';
 					m <= "ZZ";
 					state <= "00";									--return to idle
 				end if;

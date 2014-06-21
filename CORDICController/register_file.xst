@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/jdparry/Documents/CORDICController/CORDICController/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/jdparry/Documents/CORDICController/CORDICController/xst"
+set -tmpdir "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst"
 elaborate
 -ifn register_file.prj
 -ifmt mixed
