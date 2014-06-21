@@ -7,6 +7,7 @@ RST
 =y_in[31:0]=
 =z_in[31:0]=
 [Outputs]
+done
 =x_out[31:0]=
 =y_out[31:0]=
 =z_out[31:0]=

@@ -1,9 +1,9 @@
-AR register_file behavioural C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl03 1403378105
+AR register_file behavioural C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl03 1403388171
 AR comparator behavioral C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd sub00/vhpl05 1403387124
 EN binmem NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd sub00/vhpl07 1403378654
-AR controller behavioral C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl01 1403380360
-EN register_file NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl02 1403378104
+AR controller behavioral C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl01 1403388146
+EN register_file NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd sub00/vhpl02 1403388170
 AR alu thetaprovided C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd sub00/vhpl08 1403379570
-EN controller NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl00 1403380359
+EN controller NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd sub00/vhpl00 1403388145
 EN comparator NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd sub00/vhpl04 1403387123
 EN alu NULL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd sub00/vhpl06 1403379569

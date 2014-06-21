@@ -35,3 +35,5 @@ vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -modul
 spl2sym -intstyle ise -family spartan3e Controller.spl C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.sym 
 vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -module Controller -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e Controller.spl C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.sym 
+vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -module Controller -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.sym 

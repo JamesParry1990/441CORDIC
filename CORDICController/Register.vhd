@@ -38,6 +38,7 @@ entity register_file is
 				WR : in  STD_LOGIC;
 				CLK :	in		STD_LOGIC;
 				RST :	in		STD_LOGIC;
+				done : out STD_LOGIC;
 				x_out : out  STD_LOGIC_VECTOR (31 downto 0);
 				y_out : out  STD_LOGIC_VECTOR (31 downto 0);
 				z_out : out  STD_LOGIC_VECTOR (31 downto 0));

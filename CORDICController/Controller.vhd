@@ -34,7 +34,8 @@ use IEEE.NUMERIC_STD.ALL;
 entity Controller is
 	Port ( 	code 	: 	in STD_LOGIC_VECTOR (3 downto 0);
 				start	: 	in STD_LOGIC;
-				done	: 	in STD_LOGIC;
+				alu_done	: 	in STD_LOGIC;
+				reg_done : in STD_LOGIC;
 				enable : out STD_LOGIC; --MUSTFIX this variable is not used in code yet.
 				reg_wr : out  	STD_LOGIC;
 				reg_rd : out  	STD_LOGIC;
@@ -79,7 +80,7 @@ process(clk)
 			
 			elsif (state = "01") then		--load state
 				
-				if (done = '1')then				--values have been loaded
+				if (alu_done = '1')then				--values have been loaded
 					--load <= '0';				--deassert load
 					reg_wr <= '0';
 					--t <= code(0); --MUSTFIX				--determine table to use
@@ -91,12 +92,12 @@ process(clk)
 				end if;
 			elsif (state = "10") then				--exectution state
 			
-				if (done = '1' and counter /= "1111") then			--if this is not the last iteration
+				if (alu_done = '1' and counter /= "1111") then			--if this is not the last iteration
 					--i <= STD_LOGIC_VECTOR( unsigned(i) + 1);	--update i
 					--counter <= STD_LOGIC_VECTOR( unsigned(counter) + 1);
 					counter <= counter + 1;
 					i <= STD_LOGIC_VECTOR(counter);
-				elsif (done ='1' and counter = "1111") then			--last iteration
+				elsif (alu_done ='1' and counter = "1111") then			--last iteration
 					i <= "ZZZZ";											--set values to neutral
 					counter <="0000";
 					--t <= 'Z'; --MUSTFIX

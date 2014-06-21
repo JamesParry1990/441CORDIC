@@ -1,6 +1,7 @@
 [Inputs]
 start
-done
+alu_done
+reg_done
 rst
 clk
 =code[3:0]=
