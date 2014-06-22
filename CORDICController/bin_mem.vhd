@@ -83,8 +83,8 @@ constant circular: storage_array := (
 begin
 
 
-	data <= hyperbolic(conv_integer(i)) when (mode = '0') else
-		circular(conv_integer(i));
+	--data <= hyperbolic(conv_integer(i)) when (mode = '0') else
+		--circular(conv_integer(i));
 
 end Behavioral;
 

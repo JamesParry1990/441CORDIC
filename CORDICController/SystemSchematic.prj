@@ -1,0 +1,6 @@
+vhdl work "Register.vhd"
+vhdl work "Controller.vhd"
+vhdl work "Comparator.vhd"
+vhdl work "bin_mem.vhd"
+vhdl work "ALU.vhd"
+vhdl work "SystemSchematic.vhf"

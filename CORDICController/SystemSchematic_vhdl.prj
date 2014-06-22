@@ -1,0 +1,6 @@
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\Register.vhd"
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\Controller.vhd"
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\Comparator.vhd"
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\bin_mem.vhd"
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\ALU.vhd"
+vhdl work "C:\Users\jdparry\Documents\441Final\441CORDIC\CORDICController\SystemSchematic.vhf"

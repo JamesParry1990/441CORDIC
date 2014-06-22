@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="ALU">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2014-6-21T19:39:35</timestamp>
+    <timestamp>2014-6-22T0:31:18</timestamp>
     <pin polarity="Input" x="0" y="-544" name="rst" />
     <pin polarity="Input" x="0" y="-608" name="clk" />
     <pin polarity="Input" x="0" y="-480" name="en" />
