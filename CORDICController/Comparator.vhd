@@ -31,20 +31,18 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Comparator is
     Port ( Zi : in  STD_LOGIC_VECTOR (31 downto 0);
-           --Z0 : in  STD_LOGIC_VECTOR (31 downto 0);
            Yi : in  STD_LOGIC_VECTOR (31 downto 0);
-           --Y0 : in  STD_LOGIC_VECTOR (31 downto 0);
-			  --Mem_In : in STD_LOGIC_VECTOR (31 downto 0);
-           clk : in  STD_LOGIC;
            OperationSelect : in  STD_LOGIC;
            Output : out  STD_LOGIC);
 end Comparator;
 
 architecture Behavioral of Comparator is
-
+ signal compare : std_logic := '0';
 begin
 	-- 1 for positive, 0 for negative.
-	--this line is for a GitHub Test.
+	Output <= '1' when ( ((OperationSelect = '1') and (Yi(31) = '1')) or ((OperationSelect = '0') and (Zi(31) = '1')) ) else
+				 '0' when ( ((OperationSelect = '1') and (Yi(31) = '0')) or ( (OperationSelect = '0') and (Zi(31) = '0')) ) else
+				 'Z';
 
 end Behavioral;
 

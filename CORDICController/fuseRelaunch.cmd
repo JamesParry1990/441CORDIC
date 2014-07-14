@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "M:/CENG 441/CORDICController/ControllerTB_isim_beh.exe" -prj "M:/CENG 441/CORDICController/ControllerTB_beh.prj" "work.ControllerTB" 
+-intstyle "ise" -incremental -o "C:/Users/jdparry/Documents/441git/CORDICController/compTest_isim_beh.exe" -prj "C:/Users/jdparry/Documents/441git/CORDICController/compTest_beh.prj" "work.compTest" 

@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst"
+set -tmpdir "C:/Users/jdparry/Documents/441git/CORDICController/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jdparry/Documents/441git/CORDICController/xst"
 elaborate
 -ifn Comparator.prj
 -ifmt mixed

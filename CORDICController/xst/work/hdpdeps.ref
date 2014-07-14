@@ -1,54 +1,59 @@
-V3 30
+V3 36
 FL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" 2014/06/11.13:25:29 O.87xd
 FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd 2014/06/21.12:39:27 O.87xd
-EN work/ALU 1403397356 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd \
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd 2014/06/21.17:30:21 O.87xd
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd 2014/06/21.14:45:19 O.87xd
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd 2014/06/21.15:02:23 O.87xd
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd 2014/06/21.14:59:20 O.87xd
+FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf 2014/06/21.17:35:52 O.87xd
+FL C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd 2014/07/08.16:55:57 O.87xd
+EN work/ALU 1405351963 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd \
       PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
       PB ieee/NUMERIC_STD 1325952877
-AR work/ALU/thetaProvided 1403397357 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd \
-      EN work/ALU 1403397356
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd 2014/06/21.17:30:21 O.87xd
-EN work/BinMem 1403397358 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd \
+AR work/ALU/thetaProvided 1405351964 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd EN work/ALU 1405351963
+FL C:/Users/jdparry/Documents/441git/CORDICController/bin_mem.vhd 2014/07/08.16:55:57 O.87xd
+EN work/BinMem 1405351965 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/bin_mem.vhd \
       PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875
-AR work/BinMem/Behavioral 1403397359 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd \
-      EN work/BinMem 1403397358
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd 2014/06/21.14:45:19 O.87xd
-EN work/Comparator 1403397360 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd \
+AR work/BinMem/Behavioral 1405351966 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/bin_mem.vhd \
+      EN work/BinMem 1405351965
+FL C:/Users/jdparry/Documents/441git/CORDICController/Comparator.vhd 2014/07/14.09:42:31 O.87xd
+EN work/Comparator 1405356158 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Comparator.vhd \
       PB ieee/std_logic_1164 1325952872
-AR work/Comparator/Behavioral 1403397361 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd \
-      EN work/Comparator 1403397360
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd 2014/06/21.15:02:23 O.87xd
-EN work/Controller 1403397362 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd \
+AR work/Comparator/Behavioral 1405356159 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Comparator.vhd \
+      EN work/Comparator 1405356158
+FL C:/Users/jdparry/Documents/441git/CORDICController/Controller.vhd 2014/07/08.16:55:57 O.87xd
+EN work/Controller 1405351969 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Controller.vhd \
       PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
-AR work/Controller/Behavioral 1403397363 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd \
-      EN work/Controller 1403397362
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd 2014/06/21.14:59:20 O.87xd
-EN work/register_file 1403397364 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd \
+AR work/Controller/Behavioral 1405351970 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Controller.vhd \
+      EN work/Controller 1405351969
+FL C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd 2014/07/14.08:08:16 O.87xd
+EN work/register_file 1405351971 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd \
       PB ieee/std_logic_1164 1325952872
-AR work/register_file/behavioural 1403397365 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd \
-      EN work/register_file 1403397364
-FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf 2014/06/21.17:35:52 O.87xd
-EN work/SystemSchematic 1403397366 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf \
+AR work/register_file/behavioural 1405351972 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd \
+      EN work/register_file 1405351971
+FL C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf 2014/07/08.16:55:57 O.87xd
+EN work/SystemSchematic 1405351973 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf \
       PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 LB UNISIM \
       PH unisim/VCOMPONENTS 1325952880
-AR work/SystemSchematic/BEHAVIORAL 1403397367 \
-      FL C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf \
-      EN work/SystemSchematic 1403397366 CP ALU CP BinMem CP Comparator \
+AR work/SystemSchematic/BEHAVIORAL 1405351974 \
+      FL C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf \
+      EN work/SystemSchematic 1405351973 CP ALU CP BinMem CP Comparator \
       CP Controller CP register_file
 FL C:/Users/jdparry/Documents/CORDICController/CORDICController/ALU.vhd 2014/06/19.13:21:44 O.87xd
 AR work/ALU/Behavioral -1 \
       FL C:/Users/jdparry/Documents/CORDICController/CORDICController/ALU.vhd \
-      EN work/ALU 1403397356
+      EN work/ALU 1405351963
 FL C:/Users/jdparry/Documents/CORDICController/CORDICController/bin_mem.vhd 2014/06/19.13:21:29 O.87xd
 FL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd 2014/06/19.11:57:14 O.87xd
 FL C:/Users/jdparry/Documents/CORDICController/CORDICController/Register.vhd 2014/06/19.13:49:22 O.87xd

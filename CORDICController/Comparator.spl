@@ -1,5 +1,4 @@
 [Inputs]
-clk
 OperationSelect
 =Zi[31:0]=
 =Yi[31:0]=

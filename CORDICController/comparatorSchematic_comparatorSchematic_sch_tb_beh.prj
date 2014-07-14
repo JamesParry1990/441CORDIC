@@ -1,0 +1,3 @@
+vhdl work "Comparator.vhd"
+vhdl work "comparatorSchematic.vhf"
+vhdl work "comparatorTechBench2.vhd"

@@ -5,13 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf</arg>&quot; line <arg fmt="%d" index="2">131</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BinMem</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf</arg>&quot; line <arg fmt="%d" index="2">131</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BinMem</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf</arg>&quot; line <arg fmt="%d" index="2">137</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Comparator</arg>&gt;.
-</msg>
-
-<msg type="error" file="Xst" num="841" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">159</arg>: Bad condition in wait statement, or only one clock per process.
+<msg type="error" file="Xst" num="841" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">159</arg>: Bad condition in wait statement, or only one clock per process.
 </msg>
 
 </messages>

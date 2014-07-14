@@ -4,13 +4,13 @@ Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: SystemSchematic.prj
 
@@ -104,26 +104,27 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd" in Library work.
 Architecture thetaprovided of Entity alu is up to date.
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/bin_mem.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/bin_mem.vhd" in Library work.
 Architecture behavioral of Entity binmem is up to date.
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Comparator.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/Comparator.vhd" in Library work.
 Architecture behavioral of Entity comparator is up to date.
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Controller.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/Controller.vhd" in Library work.
 Architecture behavioral of Entity controller is up to date.
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd" in Library work.
 Architecture behavioural of Entity register_file is up to date.
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf" in Library work.
-Entity <SystemSchematic> compiled.
-Entity <SystemSchematic> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf" in Library work.
+Architecture behavioral of Entity systemschematic is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <SystemSchematic> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <SystemSchematic> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <ALU> in library <work> (architecture <thetaprovided>).
+
+Analyzing hierarchy for entity <Comparator> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <Controller> in library <work> (architecture <behavioral>).
 
@@ -133,18 +134,17 @@ Analyzing hierarchy for entity <register_file> in library <work> (architecture <
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <SystemSchematic> in library <work> (Architecture <BEHAVIORAL>).
-WARNING:Xst:2211 - "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf" line 131: Instantiating black box module <BinMem>.
-WARNING:Xst:2211 - "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/SystemSchematic.vhf" line 137: Instantiating black box module <Comparator>.
+Analyzing Entity <SystemSchematic> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/jdparry/Documents/441git/CORDICController/SystemSchematic.vhf" line 131: Instantiating black box module <BinMem>.
 Entity <SystemSchematic> analyzed. Unit <SystemSchematic> generated.
 
 Analyzing Entity <ALU> in library <work> (Architecture <thetaprovided>).
-ERROR:Xst:841 - "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/ALU.vhd" line 159: Bad condition in wait statement, or only one clock per process.
+ERROR:Xst:841 - "C:/Users/jdparry/Documents/441git/CORDICController/ALU.vhd" line 159: Bad condition in wait statement, or only one clock per process.
 --> 
 
-Total memory usage is 201804 kilobytes
+Total memory usage is 198728 kilobytes
 
 Number of errors   :    1 (   0 filtered)
-Number of warnings :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

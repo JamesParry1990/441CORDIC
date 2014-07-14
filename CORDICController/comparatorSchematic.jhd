@@ -1,0 +1,3 @@
+MODULE comparatorSchematic
+	SUBMODULE Comparator
+		INSTANCE XLXI_1

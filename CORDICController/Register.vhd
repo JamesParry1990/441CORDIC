@@ -57,7 +57,7 @@ begin
 writeProcess:
 process is
 begin
-	wait until rising_edge(CLK);
+	wait until falling_edge(CLK);
 	if(RST = '1') then
 		bank(0) <= (OTHERS => '0');
 		bank(1) <= (OTHERS => '0');
