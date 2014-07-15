@@ -1,20 +1,20 @@
-Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/jdparry/Documents/441git/CORDICController/compTest_isim_beh.exe -prj C:/Users/jdparry/Documents/441git/CORDICController/compTest_beh.prj work.compTest 
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_isim_beh.exe -prj C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_beh.prj work.registerTestBench 
 ISim O.87xd (signature 0x2f00eba5)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/jdparry/Documents/441git/CORDICController/Comparator.vhd" into library work
-Parsing VHDL file "C:/Users/jdparry/Documents/441git/CORDICController/compTest.vhd" into library work
+Parsing VHDL file "C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd" into library work
+Parsing VHDL file "C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 104008 KB
-Fuse CPU Usage: 218 ms
+Fuse Memory Usage: 103944 KB
+Fuse CPU Usage: 233 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity Comparator [comparator_default]
-Compiling architecture behavior of entity comptest
+Compiling architecture behavioural of entity register_file [register_file_default]
+Compiling architecture behavior of entity registertestbench
 Time Resolution for simulation is 1ps.
 Compiled 5 VHDL Units
-Built simulation executable C:/Users/jdparry/Documents/441git/CORDICController/compTest_isim_beh.exe
-Fuse Memory Usage: 113144 KB
-Fuse CPU Usage: 248 ms
+Built simulation executable C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_isim_beh.exe
+Fuse Memory Usage: 113912 KB
+Fuse CPU Usage: 264 ms

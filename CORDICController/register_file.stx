@@ -1,12 +1,12 @@
 Release 13.4 - xst O.87xd (nt)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/jdparry/Documents/441git/CORDICController/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
---> Parameter xsthdpdir set to C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/xst
+--> Parameter xsthdpdir set to C:/Users/jdparry/Documents/441git/CORDICController/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -17,19 +17,20 @@ Total CPU time to Xst completion: 0.12 secs
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/jdparry/Documents/441Final/441CORDIC/CORDICController/Register.vhd" in Library work.
+Compiling vhdl file "C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd" in Library work.
 Entity <register_file> compiled.
+WARNING:HDLParsers:1406 - "C:/Users/jdparry/Documents/441git/CORDICController/Register.vhd" Line 57. No sensitivity list and no wait in the process
 Entity <register_file> (Architecture <behavioural>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> 
 
-Total memory usage is 165652 kilobytes
+Total memory usage is 166548 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

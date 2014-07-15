@@ -36,7 +36,6 @@ entity register_file is
 				z_in : in  STD_LOGIC_VECTOR (31 downto 0);
 				RD : in  STD_LOGIC;
 				WR : in  STD_LOGIC;
-				CLK :	in		STD_LOGIC;
 				RST :	in		STD_LOGIC;
 				done : out STD_LOGIC;
 				x_out : out  STD_LOGIC_VECTOR (31 downto 0);
@@ -54,10 +53,12 @@ architecture Behavioural of register_file is
 	signal bank: register_bank;
 begin
 
+
+
+
 writeProcess:
-process is
+process(RST,WR,RD) is
 begin
-	wait until falling_edge(CLK);
 	if(RST = '1') then
 		bank(0) <= (OTHERS => '0');
 		bank(1) <= (OTHERS => '0');
@@ -71,8 +72,8 @@ begin
 		
 	elsif(RD = '1') then
 		x_out <= bank(0);
-		y_out <= bank(0);
-		z_out <= bank(0);
+		y_out <= bank(1);
+		z_out <= bank(2);
 	end if;
 end process;
 

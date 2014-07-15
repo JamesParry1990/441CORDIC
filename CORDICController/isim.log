@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\jdparry\Documents\441git\CORDICController\compTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/jdparry/Documents/441git/CORDICController/compTest_isim_beh.wdb 
+Running: C:\Users\jdparry\Documents\441git\CORDICController\registerTestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_isim_beh.wdb 
 ISim O.87xd (signature 0x2f00eba5)
 ----------------------------------------------------------------------
 INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.

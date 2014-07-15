@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/jdparry/Documents/441git/CORDICController/compTest_isim_beh.exe" -prj "C:/Users/jdparry/Documents/441git/CORDICController/compTest_beh.prj" "work.compTest" 
+-intstyle "ise" -incremental -o "C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_isim_beh.exe" -prj "C:/Users/jdparry/Documents/441git/CORDICController/registerTestBench_beh.prj" "work.registerTestBench" 
